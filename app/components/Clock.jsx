@@ -4,7 +4,7 @@ var Clock = React.createClass({
 	getDefaultProps() {
 		totalSeconds: 0
 	},
-	PropTypes: {
+	propTypes: {
 		totalSeconds: React.PropTypes.number
 	},
 	formatSeconds(totalSeconds) {
